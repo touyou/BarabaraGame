@@ -14,6 +14,22 @@
 		463E90341C605BB6007A0E24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 463E90321C605BB6007A0E24 /* LaunchScreen.storyboard */; };
 		463E903F1C605BB6007A0E24 /* BarabaraGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463E903E1C605BB6007A0E24 /* BarabaraGameTests.swift */; };
 		463E904A1C605BB6007A0E24 /* BarabaraGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463E90491C605BB6007A0E24 /* BarabaraGameUITests.swift */; };
+		463E90591C609130007A0E24 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 463E90571C609130007A0E24 /* bar.png */; };
+		463E905A1C609130007A0E24 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 463E90581C609130007A0E24 /* tail.png */; };
+		463E905C1C60937F007A0E24 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463E905B1C60937F007A0E24 /* GameViewController.swift */; };
+		463E905E1C60938C007A0E24 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463E905D1C60938C007A0E24 /* RankingViewController.swift */; };
+		46AE437D1C618903002B2AF2 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 46AE43721C618903002B2AF2 /* Icon-40.png */; };
+		46AE437E1C618903002B2AF2 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46AE43731C618903002B2AF2 /* Icon-40@2x.png */; };
+		46AE437F1C618903002B2AF2 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46AE43741C618903002B2AF2 /* Icon-40@3x.png */; };
+		46AE43801C618903002B2AF2 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46AE43751C618903002B2AF2 /* Icon-60@2x.png */; };
+		46AE43811C618903002B2AF2 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46AE43761C618903002B2AF2 /* Icon-60@3x.png */; };
+		46AE43821C618903002B2AF2 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 46AE43771C618903002B2AF2 /* Icon-76.png */; };
+		46AE43831C618903002B2AF2 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46AE43781C618903002B2AF2 /* Icon-76@2x.png */; };
+		46AE43841C618903002B2AF2 /* Icon-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46AE43791C618903002B2AF2 /* Icon-83.5@2x.png */; };
+		46AE43851C618903002B2AF2 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 46AE437A1C618903002B2AF2 /* Icon-Small.png */; };
+		46AE43861C618903002B2AF2 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46AE437B1C618903002B2AF2 /* Icon-Small@2x.png */; };
+		46AE43871C618903002B2AF2 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46AE437C1C618903002B2AF2 /* Icon-Small@3x.png */; };
+		46AE43891C61894A002B2AF2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46AE43881C61894A002B2AF2 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +63,22 @@
 		463E90451C605BB6007A0E24 /* BarabaraGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarabaraGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		463E90491C605BB6007A0E24 /* BarabaraGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarabaraGameUITests.swift; sourceTree = "<group>"; };
 		463E904B1C605BB6007A0E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		463E90571C609130007A0E24 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		463E90581C609130007A0E24 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		463E905B1C60937F007A0E24 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		463E905D1C60938C007A0E24 /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		46AE43721C618903002B2AF2 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		46AE43731C618903002B2AF2 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		46AE43741C618903002B2AF2 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		46AE43751C618903002B2AF2 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		46AE43761C618903002B2AF2 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		46AE43771C618903002B2AF2 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		46AE43781C618903002B2AF2 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		46AE43791C618903002B2AF2 /* Icon-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-83.5@2x.png"; sourceTree = "<group>"; };
+		46AE437A1C618903002B2AF2 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		46AE437B1C618903002B2AF2 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		46AE437C1C618903002B2AF2 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		46AE43881C61894A002B2AF2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +109,7 @@
 		463E901D1C605BB6007A0E24 = {
 			isa = PBXGroup;
 			children = (
+				46AE43881C61894A002B2AF2 /* Default-568h@2x.png */,
 				463E90281C605BB6007A0E24 /* BarabaraGame */,
 				463E903D1C605BB6007A0E24 /* BarabaraGameTests */,
 				463E90481C605BB6007A0E24 /* BarabaraGameUITests */,
@@ -99,10 +132,25 @@
 			children = (
 				463E90291C605BB6007A0E24 /* AppDelegate.swift */,
 				463E902B1C605BB6007A0E24 /* ViewController.swift */,
+				463E90571C609130007A0E24 /* bar.png */,
+				463E90581C609130007A0E24 /* tail.png */,
+				46AE43721C618903002B2AF2 /* Icon-40.png */,
+				46AE43731C618903002B2AF2 /* Icon-40@2x.png */,
+				46AE43741C618903002B2AF2 /* Icon-40@3x.png */,
+				46AE43751C618903002B2AF2 /* Icon-60@2x.png */,
+				46AE43761C618903002B2AF2 /* Icon-60@3x.png */,
+				46AE43771C618903002B2AF2 /* Icon-76.png */,
+				46AE43781C618903002B2AF2 /* Icon-76@2x.png */,
+				46AE43791C618903002B2AF2 /* Icon-83.5@2x.png */,
+				46AE437A1C618903002B2AF2 /* Icon-Small.png */,
+				46AE437B1C618903002B2AF2 /* Icon-Small@2x.png */,
+				46AE437C1C618903002B2AF2 /* Icon-Small@3x.png */,
 				463E902D1C605BB6007A0E24 /* Main.storyboard */,
 				463E90301C605BB6007A0E24 /* Assets.xcassets */,
 				463E90321C605BB6007A0E24 /* LaunchScreen.storyboard */,
 				463E90351C605BB6007A0E24 /* Info.plist */,
+				463E905B1C60937F007A0E24 /* GameViewController.swift */,
+				463E905D1C60938C007A0E24 /* RankingViewController.swift */,
 			);
 			path = BarabaraGame;
 			sourceTree = "<group>";
@@ -233,8 +281,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				463E90341C605BB6007A0E24 /* LaunchScreen.storyboard in Resources */,
+				463E905A1C609130007A0E24 /* tail.png in Resources */,
+				46AE437D1C618903002B2AF2 /* Icon-40.png in Resources */,
+				46AE43861C618903002B2AF2 /* Icon-Small@2x.png in Resources */,
 				463E90311C605BB6007A0E24 /* Assets.xcassets in Resources */,
+				46AE437E1C618903002B2AF2 /* Icon-40@2x.png in Resources */,
+				46AE43801C618903002B2AF2 /* Icon-60@2x.png in Resources */,
+				46AE43821C618903002B2AF2 /* Icon-76.png in Resources */,
+				46AE43891C61894A002B2AF2 /* Default-568h@2x.png in Resources */,
+				46AE43811C618903002B2AF2 /* Icon-60@3x.png in Resources */,
+				46AE43851C618903002B2AF2 /* Icon-Small.png in Resources */,
 				463E902F1C605BB6007A0E24 /* Main.storyboard in Resources */,
+				46AE437F1C618903002B2AF2 /* Icon-40@3x.png in Resources */,
+				46AE43831C618903002B2AF2 /* Icon-76@2x.png in Resources */,
+				46AE43841C618903002B2AF2 /* Icon-83.5@2x.png in Resources */,
+				46AE43871C618903002B2AF2 /* Icon-Small@3x.png in Resources */,
+				463E90591C609130007A0E24 /* bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +322,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				463E902C1C605BB6007A0E24 /* ViewController.swift in Sources */,
+				463E905C1C60937F007A0E24 /* GameViewController.swift in Sources */,
 				463E902A1C605BB6007A0E24 /* AppDelegate.swift in Sources */,
+				463E905E1C60938C007A0E24 /* RankingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +549,7 @@
 				463E90501C605BB6007A0E24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		463E90511C605BB6007A0E24 /* Build configuration list for PBXNativeTarget "BarabaraGameTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +558,7 @@
 				463E90531C605BB6007A0E24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		463E90541C605BB6007A0E24 /* Build configuration list for PBXNativeTarget "BarabaraGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +567,7 @@
 				463E90561C605BB6007A0E24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
