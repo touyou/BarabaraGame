@@ -24,12 +24,14 @@ class GameViewController: UIViewController {
     var positionX: [CGFloat] = [0.0, 0.0, 0.0]
     var dx: [CGFloat] = [1.0, 0.5, -1.0]
     
+    // ゲームをスタートさせる
     func start() {
         resultLabel.hidden = true
         timer = NSTimer.scheduledTimerWithTimeInterval(0.005, target: self, selector: "up", userInfo: nil, repeats: true)
         timer.fire()
     }
     
+    // 0.005secごとに実行、これによって画像が動く
     func up() {
         for i in 0..<3 {
             if positionX[i] > width || positionX[i] < 0 {
@@ -55,7 +57,7 @@ class GameViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    // 止めたらその時点でのスコアを計算
     @IBAction func stop() {
         if timer.valid == true {
             timer.invalidate()
@@ -83,6 +85,7 @@ class GameViewController: UIViewController {
         defaults.synchronize()
     }
     
+    // リトライの時は最初の位置からはじめたいので
     @IBAction func retry() {
         score = 1000
         positionX = [width/2, width/2, width/2]
@@ -90,6 +93,7 @@ class GameViewController: UIViewController {
         self.start()
     }
     
+    // トップに戻る
     @IBAction func toTop() {
         self.dismissViewControllerAnimated(true, completion: nil)
     }

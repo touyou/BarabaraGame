@@ -30,7 +30,7 @@ class RankingViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
+    // トップに戻る
     @IBAction func toTop() {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
